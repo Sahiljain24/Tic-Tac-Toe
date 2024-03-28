@@ -1,0 +1,27 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+     width: 100vw;
+     height: 100vh;
+    background-image:linear-gradient( 70deg,  #FFCF71 , #2376DD); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    aspect-ratio: 1/1;
+}
+.box{
+    height: 4rem;
+    width: 4rem;
+    border: 1rem solid black;
+}
