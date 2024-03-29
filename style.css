@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:cursive;
 }
 .wrapper{
      width: 100vw;
@@ -9,8 +10,9 @@
     background-image:linear-gradient( 70deg,  #FFCF71 , #2376DD); 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+     
     align-items: center;
+    justify-content: space-evenly;
 
 }
 .game-container{
@@ -23,5 +25,46 @@
 .box{
     height: 4rem;
     width: 4rem;
-    border: 1rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6d1de5ee;
 }
+
+.box1,.box4,.box7{
+    border-right: 2px solid rgb(183, 9, 183);
+}
+.box4,.box5,.box6{
+    border-top: 2px solid rgb(183, 9, 183);
+    border-bottom: 2px solid rgb(183, 9, 183);
+
+}
+.box3,.box6,.box9{
+    border-left: 2px solid rgb(183, 9, 183);
+}
+p{
+    background-color: rgba(240, 248, 255, 0.217);
+    width:9rem;
+    min-width: fit-content ;
+    
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+button{
+    all: unset;
+    background:#ffd07153;
+    border-radius:1rem;
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid springgreen;
+    display: none;
+ }
+ .active{
+    display: block;
+ }
