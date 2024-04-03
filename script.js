@@ -17,6 +17,8 @@ let positions = [
     [3, 5, 7]
 ];
 
+let arr = ["","","","","","","","",""];
+
 newGame.addEventListener('click',start);
  
 function start(){
