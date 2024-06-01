@@ -21,5 +21,6 @@ Open the index.html file in your web browser.
 Click on the squares to make your move. The game will declare the winner, loser, or tie once the game ends.
 Screenshots
 
+
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
